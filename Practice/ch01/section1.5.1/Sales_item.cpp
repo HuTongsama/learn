@@ -8,7 +8,7 @@ m_fTotal(0.0),m_fAverage(0.0)
 Sales_item operator+(const Sales_item & item1, const Sales_item & item2)
 {
 	Sales_item item;
-	if (item1.m_strISBN != item2.m_strISBN)
+	if (item1.isbn() != item2.isbn())
 		return item;
 	item.m_strISBN = item1.m_strISBN;
 	item.m_fTotal = item1.m_fTotal + item2.m_fTotal;
