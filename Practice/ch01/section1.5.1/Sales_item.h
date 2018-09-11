@@ -5,6 +5,7 @@ class Sales_item
 {
 public:
 	Sales_item();
+	std::string isbn()const { return m_strISBN; }
 	friend Sales_item operator+(const Sales_item& item1,const Sales_item& item2);
 	friend std::istream& operator>>(std::istream& itemIn, Sales_item& item);
 	friend std::ostream& operator<<(std::ostream& itemOut, const Sales_item& item);
