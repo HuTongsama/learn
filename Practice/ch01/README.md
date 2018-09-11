@@ -10,3 +10,11 @@ have the same ISBN and produces their sum.
 
 **Exercise 1.22**: Write a program that reads several transactions for the
 same ISBN. Write the sum of all the transactions that were read.
+
+
+# Exercises Section 1.5.2
+**Exercise 1.23**: Write a program that reads several transactions and
+counts how many transactions occur for each ISBN.
+**Exercise 1.24**: Test the previous program by giving multiple transactions
+representing multiple ISBNs. The records for each ISBN should be grouped
+together.
