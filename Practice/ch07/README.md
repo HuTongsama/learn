@@ -52,3 +52,15 @@ initializes the members to the values we have provided as in-class
 initializers.
 
 **Exercise 7.15**: Add appropriate constructors to your Person class.
+
+# Exercises Section 7.2.1
+
+**Exercise 7.20**: When are friends useful? Discuss the pros and cons of
+using friends.
+
+**Exercise 7.21**: Update your Sales_data class to hide its implementation.
+The programs you’ve written to use Sales_data operations should still
+continue to work. Recompile those programs with your new class definition
+to verify that they still work.
+
+**Exercise 7.22**: Update your Person class to hide its implementation.
