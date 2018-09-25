@@ -35,3 +35,20 @@ you wrote for the exercises in § 7.1.2 (p. 260).
 **Exercise 7.10**: What does the condition in the following if statement do?
 
 if (read(read(cin, data1), data2))
+
+# Exercises Section 7.1.4
+
+**Exercise 7.11**: Add constructors to your Sales_data class and write a
+program to use each of the constructors.
+
+**Exercise 7.12**: Move the definition of the Sales_data constructor that
+takes an istream into the body of the Sales_data class.
+
+**Exercise 7.13**: Rewrite the program from page 255 to use the istream
+constructor.
+
+**Exercise 7.14**: Write a version of the default constructor that explicitly
+initializes the members to the values we have provided as in-class
+initializers.
+
+**Exercise 7.15**: Add appropriate constructors to your Person class.
