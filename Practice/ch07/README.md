@@ -64,3 +64,13 @@ continue to work. Recompile those programs with your new class definition
 to verify that they still work.
 
 **Exercise 7.22**: Update your Person class to hide its implementation.
+
+# Exercises Section 7.3.1
+
+**Exercise 7.23**: Write your own version of the Screen class.
+
+**Exercise 7.24**: Give your Screen class three constructors: a default
+constructor; a constructor that takes values for height and width and
+initializes the contents to hold the given number of blanks; and a
+constructor that takes values for height, width, and a character to use as
+the contents of the screen.
