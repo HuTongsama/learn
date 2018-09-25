@@ -10,6 +10,9 @@ struct Person
 	std::string name()const { return m_name; }
 	std::string address()const { return m_address; }
 
+	friend std::istream& read(std::istream& is, Person &person);
+	friend std::ostream& print(std::ostream& os, const Person &person);
+private:
 	std::string m_name;
 	std::string m_address;
 };
