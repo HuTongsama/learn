@@ -2,12 +2,13 @@
 
 int main()
 {
-	Sales_data total;
-	if (read(std::cin,total))
+	Sales_data total(std::cin);
+	if (!total.isbn().empty())
 	{
-		Sales_data trans;
-		while (read(std::cin,trans))
+		std::istream &is = std::cin;
+		while (is)
 		{
+			Sales_data trans(is);
 			if (total.bookNo == trans.bookNo)
 			{
 				total.combine(trans);
@@ -25,6 +26,9 @@ int main()
 		std::cerr << "No data?!" << std::endl;
 		return -1;
 	}
+	
+
+
 	system("pause");
 	return 0;
 }
