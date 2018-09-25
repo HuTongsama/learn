@@ -1,5 +1,19 @@
 #pragma once
 #include<string>
+#include<vector>
+
+class Screen;
+class Window_mgr 
+{
+public:
+	using ScreenIndex = std::vector<Screen>::size_type;
+	void push(const Screen &s);
+	Screen get(ScreenIndex)const;
+	void clear(ScreenIndex);
+private:
+
+	std::vector<Screen> m_screens;
+};
 
 class Screen
 {
@@ -33,6 +47,7 @@ public:
 		do_display(os);
 		return *this;
 	}
+	friend void Window_mgr::clear(Window_mgr::ScreenIndex);
 private:
 	void do_display(std::ostream& os)const
 	{
